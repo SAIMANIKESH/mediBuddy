@@ -1,0 +1,17 @@
+.working-list-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.images {
+  width: 45px;
+  height: 45px;
+  margin-left: 12px;
+  margin-top: 4px;
+  align-self: flex-start;
+}
+
+.working-text {
+  width: 75%;
+  color: #434343;
+}

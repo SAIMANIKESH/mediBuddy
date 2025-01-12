@@ -1,0 +1,17 @@
+.question {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.answer {
+  width: 90%;
+}
+
+.faqItem-list {
+  list-style-type: disc;
+  width: 90%;
+}
+
+.horizontal-line {
+  border: 1px solid #c7d1de;
+}

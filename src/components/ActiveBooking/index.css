@@ -1,0 +1,29 @@
+.profile-list-item {
+  border: solid #ded5d5 2px;
+  border-radius: 12px;
+  width: 100%;
+  background-color: #f6f5f9;
+}
+
+.right-circle {
+  background-color: #fff;
+  border-radius: 295px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.timings-container {
+  background-color: #e8e8f4;
+  border: solid 2px #e2e2f7;
+  border-radius: 12px;
+}
+
+.vertical {
+  border-right: solid 2px #d7d7fd;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.para {
+  font-size: 14px;
+}

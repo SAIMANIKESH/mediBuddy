@@ -1,0 +1,54 @@
+.features-container {
+  background-color: #f3f9f9;
+}
+
+.blood-count-list {
+  list-style-type: none;
+}
+
+.blood-count-list-item {
+  border: solid #ded5d5 2px;
+  border-radius: 12px;
+  width: 100%;
+  background-color: #f9fcf9;
+}
+
+.blood-count-heading {
+  font-weight: 700;
+}
+
+.blood-count-text {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.true {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.green {
+  background-color: #d7ffdb;
+  padding: 3px 6px 3px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.bc-spacing {
+  margin-left: 12px;
+}
+
+.bg-green {
+  background-color: #01aa12;
+}
+
+.bc-button {
+  border-radius: 9px;
+  border-width: 2px;
+  padding: 0px;
+  width: 72px;
+  height: 29px;
+  font-weight: 500;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-head {
+  align-items: center;
+  font-weight: 600;
+}
+
+.text {
+  font-weight: 500;
+}

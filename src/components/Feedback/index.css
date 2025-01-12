@@ -1,0 +1,33 @@
+.bg {
+  background-color: #fcfefc;
+}
+
+.bg-item {
+  background-color: #f6f6f6;
+}
+
+.blue {
+  color: #0a1c6f;
+}
+
+.stars {
+  width: 60px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-size: 14px;
+  color: #112066;
+}
+
+.hr {
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+}
+
+.feed-space {
+  margin-left: 12px;
+}
