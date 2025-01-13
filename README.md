@@ -1,5 +1,14 @@
-Created "mediBuddy Assignment" as shown or provided in Figma...
+Designed "mediBuddy Assignment" as shown or provided in Figma...
 But unable to publish code...
+
+# myChecklist:
+ -> I have completed almost all the functionalities asked in the assignment 
+ 
+ -> I have used only the resources (Frameworks, Design files, APIs, third-party packages) mentioned in the assignment 
+ 
+ -> I have modified the README.md file based on my Assignment instructions
+ 
+ -> I have completed the assignment ON TIME
 
 my code output -> https://drive.google.com/file/d/1Nl-DAqx9UlRfVS5Qf4rL-mPiFz0onkPG/view?usp=sharing
 
