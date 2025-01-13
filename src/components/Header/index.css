@@ -1,15 +1,23 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
 }
 
 .nav-head {
   align-items: center;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 17px;
 }
 
 .text {
   font-weight: 500;
+}
+
+.text-size {
+  font-size: 13px;
 }

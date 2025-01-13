@@ -7,15 +7,15 @@ import "./index.css";
 const Headers = () => {
   return (
     <div className="bg-white navbar">
-      <BsArrowLeft size="25px" className="mt-0" />
+      <BsArrowLeft size="24px" className="mt-0 mb-2" />
       <div className="d-flex flex-column">
-        <h5 className="nav-head d-flex flex-row mb-0">
+        <h1 className="nav-head d-flex flex-row mb-0">
           Billekahalli <ImLocation2 size="16px" className="ml-1" />
-        </h5>
-        <p className="text">Sarvabhoumanagar, Billekahall...</p>
+        </h1>
+        <p className="text text-size mb-1">Sarvabhoumanagar, Billekahall...</p>
       </div>
-      <IoWalletOutline size="25px" />
-      <BsCart2 size="25px" />
+      <IoWalletOutline size="26px" className="arr mt-2" />
+      <BsCart2 size="26px" className="arr mt-2" />
     </div>
   );
 };
