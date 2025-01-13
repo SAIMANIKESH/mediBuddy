@@ -22,7 +22,7 @@ const Trusted = (property) => {
           <span className="text-primary bold2"> 20,00,000+</span> <br />
           <span className="text blue">Users Every month</span>{" "}
         </h3>
-        <IoShieldCheckmark color="#16ff41" size={40} className="mb-3" />
+        <IoShieldCheckmark color="#53cf1b" size={40} className="mb-3" />
       </div>
       <ul className="items-list d-flex flex-row justify-content-between p-0 m-0 col-12">
         {details.map((eachItem) => listItem(eachItem))}
