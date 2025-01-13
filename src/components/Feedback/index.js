@@ -1,4 +1,4 @@
-import { formatDistance } from "date-fns";
+import { formatDistanceToNowStrict } from "date-fns";
 import { IoStar } from "react-icons/io5";
 import { ImLocation2 } from "react-icons/im";
 import { BsFillDiamondFill } from "react-icons/bs";
@@ -10,7 +10,7 @@ const Feedback = (property) => {
   const { title, props } = details;
 
   const listItem = (val) => {
-    const postTime = formatDistance(new Date(val.days), new Date(), {
+    const postTime = formatDistanceToNowStrict(new Date(val.days), new Date(), {
       addSuffix: true,
     });
 
@@ -28,7 +28,7 @@ const Feedback = (property) => {
         <div className="d-flex justify-content-between align-items-center mb-0 p-3 pt-2">
           <div className="d-flex align-items-center mb-0">
             <span className="stars arr">{stars}</span>
-            <p className="blood-count-text true bold1 mb-0">{postTime}</p>
+            <p className="blood-count-text true bold1 mb-0">{postTime} ago</p>
           </div>
           <div className="d-flex align-items-center mb-0">
             <ImLocation2 color="gray" size={15} className="arr mb-0" />

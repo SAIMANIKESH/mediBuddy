@@ -31,13 +31,12 @@ class App extends Component {
     const { userInput } = this.state;
     return (
       <>
+        <Header />
         <div className="container-fluid">
           <div className="row">
-            <div className="App col-12">
-              <Header />
-
+            <div className="App col-12 mt-5">
               {/* search bar section */}
-              <div className="search-bar">
+              <div className="search-bar mt-3">
                 <input
                   type="search"
                   value={userInput}

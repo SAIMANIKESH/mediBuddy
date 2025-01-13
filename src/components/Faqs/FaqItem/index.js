@@ -53,7 +53,7 @@ class FaqItem extends Component {
     const { faqDetails } = this.props;
     const { id } = faqDetails;
     if (id === 2) {
-      this.setState((prevState) => ({ isActive: !prevState.isActive }));
+      this.setState({ isActive: true });
     }
   };
 

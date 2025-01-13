@@ -1,3 +1,8 @@
+import { add, format } from "date-fns";
+
+let x = add(new Date(), { days: 2 });
+console.log(format(x, 'dd LLL"yy'));
+
 const medArr = () => {
   return [
     {
@@ -2265,7 +2270,7 @@ const medArr = () => {
                 "This is one of the best app for health checkups. Provides prompt service at economical packages. This app is very handy in emergencies.",
               name: "Shivangi Singh",
               location: "Chennai",
-              days: "24 February 2021",
+              days: "24 February 2024",
             },
             {
               rating: 5,
@@ -2273,7 +2278,7 @@ const medArr = () => {
                 "Best app ever. One stop for all..either lab test, medicine home delivery or health insurance and consulting to dr. Its really good app",
               name: "Isha Manchanda",
               location: "Hyderabad",
-              days: "24 February 2021",
+              days: "24 February 2022",
             },
             {
               rating: 4,
