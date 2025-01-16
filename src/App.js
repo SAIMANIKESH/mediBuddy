@@ -32,35 +32,31 @@ class App extends Component {
     return (
       <>
         <Header />
-        <div className="container-fluid">
-          <div className="row">
-            <div className="App col-12 mt-5">
-              {/* search bar section */}
-              <div className="search-bar mt-3">
-                <input
-                  type="search"
-                  value={userInput}
-                  placeholder="Find lab tests, diagnostics center"
-                  onChange={this.onUserInput}
-                  className="search"
-                />
-                <FiSearch size="20px" color="gray" />
-              </div>
+        <div className="App col-12 mt-5">
+          {/* search bar section */}
+          <div className="search-bar mt-3">
+            <input
+              type="search"
+              value={userInput}
+              placeholder="Find lab tests, diagnostics center"
+              onChange={this.onUserInput}
+              className="search"
+            />
+            <FiSearch size="20px" color="gray" />
+          </div>
 
-              {/* icons container section */}
-              <div className="icons-container mt-3">
-                <ul className="items-list d-flex flex-row p-0 m-0 col-12">
-                  {iconsList.map((eachItem) => (
-                    <Icons1 key={eachItem.iconText} details={eachItem} />
-                  ))}
-                </ul>
-              </div>
+          {/* icons container section */}
+          <div className="icons-container mt-3">
+            <ul className="items-list d-flex flex-row p-0 m-0 col-12 mt-4">
+              {iconsList.map((eachItem) => (
+                <Icons1 key={eachItem.iconText} details={eachItem} />
+              ))}
+            </ul>
+          </div>
 
-              {/* banners section */}
-              <div className="carousel-container mt-4">
-                <Banner />
-              </div>
-            </div>
+          {/* banners section */}
+          <div className="carousel-container mt-3 mb-0">
+            <Banner />
           </div>
         </div>
 

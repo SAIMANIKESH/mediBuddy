@@ -82,11 +82,9 @@ const Features = (property) => {
                 </button>
               </div>
             </div>
-            <div className="coupon">
-              <p className="bg-primary text-white text-center text borders pb-0 mb-0">
-                {eachItem.tags.bottomTag}
-              </p>
-            </div>
+            <p className="bg-primary text-white text-center text borders pb-0 mb-0">
+              {eachItem.tags.bottomTag}
+            </p>
           </li>
         ))}
       </ul>

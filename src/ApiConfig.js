@@ -1,7 +1,7 @@
-import { add, format } from "date-fns";
+// import { add, format } from "date-fns";
 
-let x = add(new Date(), { days: 2 });
-console.log(format(x, 'dd LLL"yy'));
+// let x = add(new Date(), { days: 2 });
+// console.log(format(x, 'dd LLL"yy'));
 
 const medArr = () => {
   return [

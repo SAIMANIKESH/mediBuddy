@@ -60,6 +60,7 @@
   outline: none;
   min-width: 86%;
   box-sizing: border-box;
+  position: relative;
 }
 
 .design {
@@ -107,17 +108,12 @@
   margin-bottom: 17px;
 }
 
-.coupon {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-self: flex-end;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
 .borders {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  position: absolute;
+  bottom: 0px;
+  /* left: 0px;
+  right: 0px; */
+  width: 100%;
 }
