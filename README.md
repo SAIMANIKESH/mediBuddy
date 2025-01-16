@@ -14,11 +14,13 @@ my code output -> https://drive.google.com/file/d/1Nl-DAqx9UlRfVS5Qf4rL-mPiFz0on
 
 after layout commit output -> https://drive.google.com/file/d/1M2c7HhKQgw96zAwNIKUnMl_KeP8m9zTi/view?usp=sharing
 
+layout commit regarding smooth transition and navbar fixing at top output -> https://drive.google.com/file/d/1wkDVCBDIeCTuPzOIN9PrCjCnFccHwAsc/view?usp=sharing
+
 given code in Figma Output -> https://www.figma.com/proto/e0Q4cOMsJu7g94kwFxNX1T/Designs-for-Dev-Assignments_Jan25?node-id=1-1697&t=flzP7Wy4oLBzZlD8-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
 
 if password requires for Figma then -> "YourHealthBuddy"
 
 
-Due to less time (2 days) just focused on speed, not perfection! and given my best to get as close as my output to figma output...
+Due to less time (2 days) just focused on speed, not perfection! and given my best to get as close as my output to the given assignment figma output...
 
 Thank you :)
