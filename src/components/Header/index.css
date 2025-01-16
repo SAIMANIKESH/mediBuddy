@@ -4,8 +4,11 @@
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  width: 100%;
-  background-color: transparent;
+  /* width: 100%; */
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
 }
 
 .nav-head {
