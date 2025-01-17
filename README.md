@@ -1,7 +1,7 @@
 Designed "mediBuddy Assignment" as shown or provided in Figma ["only mobile view achieved"] ...
 But unable to publish code...
 
-for better visualization see at 430x600 dimensions!
+for better visualization see at 430Wx560H dimensions with 100% zoom!
 
 # myChecklist:
  -> I have completed almost all the functionalities asked in the assignment 
