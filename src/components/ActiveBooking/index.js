@@ -5,7 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 import "./index.css";
 
-const ActiveBooking = () => {
+const ActiveBooking = (props) => {
   const profile = (val) => {
     return (
       <div className="profile-list-item mt-3 p-3">
@@ -46,36 +46,14 @@ const ActiveBooking = () => {
   };
 
   const Banner = () => {
+    const { details } = props;
+
     return (
-      <Carousel controls={false} indicators={false}>
-        <Carousel.Item interval={3000}>
-          {profile({
-            name: "Mr.Suresh Gaikwad",
-            schedule: { date: "13 Jan'25", day: "Monday" },
-            count: "03",
-          })}
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          {profile({
-            name: "Ms.Kavya Aggarwal",
-            schedule: { date: "15 Jan'25", day: "Wednesday" },
-            count: "05",
-          })}
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          {profile({
-            name: "Mr.Tilak Varma",
-            schedule: { date: "21 Jan'25", day: "Tuesday" },
-            count: "03",
-          })}
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          {profile({
-            name: "Mr.Manoj Kashyap",
-            schedule: { date: "23 Jan'25", day: "Thursday" },
-            count: "02",
-          })}
-        </Carousel.Item>
+      <Carousel controls={false} indicators={false} pause={"hover"}>
+        <Carousel.Item interval={2500}>{profile(details[0])}</Carousel.Item>
+        <Carousel.Item interval={2500}>{profile(details[1])}</Carousel.Item>
+        <Carousel.Item interval={2500}>{profile(details[2])}</Carousel.Item>
+        <Carousel.Item interval={2500}>{profile(details[3])}</Carousel.Item>
       </Carousel>
     );
   };

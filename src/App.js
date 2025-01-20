@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 
 import medArr from "./ApiConfig";
@@ -20,88 +20,85 @@ const medArray = medArr()[0].page_config;
 
 const iconsList = medArray[0].props;
 
-class App extends Component {
-  state = { userInput: "" };
+const App = () => {
+  const [userInput, setUserInput] = useState("");
 
-  onUserInput = (event) => {
-    this.setState({ userInput: event.target.value });
+  const onUserInput = (event) => {
+    setUserInput(event.target.value);
   };
 
-  render() {
-    const { userInput } = this.state;
-    return (
-      <>
-        <Header />
-        <div className="App col-12 mt-5">
-          {/* search bar section */}
-          <div className="search-bar mt-3">
-            <input
-              type="search"
-              value={userInput}
-              placeholder="Find lab tests, diagnostics center"
-              onChange={this.onUserInput}
-              className="search"
-            />
-            <FiSearch size="20px" color="gray" />
-          </div>
-
-          {/* icons container section */}
-          <div className="icons-container mt-3">
-            <ul className="items-list d-flex flex-row p-0 m-0 col-12 mt-4">
-              {iconsList.map((eachItem) => (
-                <Icons1 key={eachItem.iconText} details={eachItem} />
-              ))}
-            </ul>
-          </div>
-
-          {/* banners section */}
-          <div className="carousel-container mt-3 mb-0">
-            <Banner />
-          </div>
+  return (
+    <>
+      <Header />
+      <div className="App col-12 mt-5">
+        {/* search bar section */}
+        <div className="search-bar mt-3">
+          <input
+            type="search"
+            value={userInput}
+            placeholder="Find lab tests, diagnostics center"
+            onChange={onUserInput}
+            className="search"
+          />
+          <FiSearch size="20px" color="gray" />
         </div>
 
-        {/* health checkup features section */}
-        <div className="col-12 mt-2">
-          <Features details={medArray[2]} />
+        {/* icons container section */}
+        <div className="icons-container mt-3">
+          <ul className="items-list d-flex flex-row p-0 m-0 col-12 mt-4">
+            {iconsList.map((eachItem) => (
+              <Icons1 key={eachItem.iconText} details={eachItem} />
+            ))}
+          </ul>
         </div>
 
-        {/* User's Active Bookings Section */}
-        <div className="col-12">
-          <ActiveBooking />
+        {/* banners section */}
+        <div className="carousel-container mt-3 mb-0">
+          <Banner />
         </div>
+      </div>
 
-        {/* Booking Popular Lab Tests Section */}
-        <div className="col-12">
-          <LabTests details={medArray[2]} />
-        </div>
+      {/* health checkup features section */}
+      <div className="col-12 mt-2">
+        <Features details={medArray[2]} />
+      </div>
 
-        {/* Trusted source */}
-        <div className="col-12">
-          <Trusted details={medArray[7].props} />
-        </div>
+      {/* User's Active Bookings Section */}
+      <div className="col-12">
+        <ActiveBooking details={medArray[8].props} />
+      </div>
 
-        {/* Users Feedback source */}
-        <div className="col-12">
-          <Feedback details={medArray[5]} />
-        </div>
+      {/* Booking Popular Lab Tests Section */}
+      <div className="col-12">
+        <LabTests details={medArray[2]} />
+      </div>
 
-        {/* Life Style Section */}
-        <div className="col-12">
-          <LifeStyle details={medArray[3]} />
-        </div>
+      {/* Trusted source */}
+      <div className="col-12">
+        <Trusted details={medArray[7].props} />
+      </div>
 
-        {/* How it works Section */}
-        <div className="col-12">
-          <Working details={medArray[6].props[0]} />
-        </div>
+      {/* Users Feedback source */}
+      <div className="col-12">
+        <Feedback details={medArray[5]} />
+      </div>
 
-        {/* FAQs Section */}
-        <div className="col-12">
-          <Faqs details={medArray[6]} />
-        </div>
-      </>
-    );
-  }
-}
+      {/* Life Style Section */}
+      <div className="col-12">
+        <LifeStyle details={medArray[3]} />
+      </div>
+
+      {/* How it works Section */}
+      <div className="col-12">
+        <Working details={medArray[6].props[0]} />
+      </div>
+
+      {/* FAQs Section */}
+      <div className="col-12">
+        <Faqs details={medArray[6]} />
+      </div>
+    </>
+  );
+};
 
 export default App;

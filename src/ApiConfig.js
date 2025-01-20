@@ -1,7 +1,7 @@
 // import { add, format } from "date-fns";
 
 // let x = add(new Date(), { days: 2 });
-// console.log(format(x, 'dd LLL"yy'));
+// console.log(format(x, 'dd LLL"yy eeee'));
 
 const medArr = () => {
   return [
@@ -2517,6 +2517,31 @@ const medArr = () => {
               title: "Home Sample collection",
               subTitle: "Get your reports reviewed by",
               subText: "Comfort of your home",
+            },
+          ],
+        },
+        {
+          id: "9",
+          props: [
+            {
+              name: "Mr.Suresh Gaikwad",
+              schedule: { date: "13 Jan'25", day: "Monday" },
+              count: "03",
+            },
+            {
+              name: "Ms.Kavya Aggarwal",
+              schedule: { date: "15 Jan'25", day: "Wednesday" },
+              count: "05",
+            },
+            {
+              name: "Mr.Tilak Varma",
+              schedule: { date: "21 Jan'25", day: "Tuesday" },
+              count: "03",
+            },
+            {
+              name: "Mr.Manoj Kashyap",
+              schedule: { date: "23 Jan'25", day: "Thursday" },
+              count: "02",
             },
           ],
         },
