@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Banner = () => {
   return (
-    <Carousel controls={false} indicators={false} fade={false} pause={"hover"}>
+    <Carousel controls={false} indicators={false} pause={"hover"}>
       <Carousel.Item interval={3000}>
         <img
           src="https://views.medibuddy.in/mb-config/IMAGE/philips_track_your_health_labs_banner_1731064505053.png"
