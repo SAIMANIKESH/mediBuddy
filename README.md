@@ -18,6 +18,8 @@ after layout commit output -> https://drive.google.com/file/d/1M2c7HhKQgw96zAwNI
 
 layout commit regarding smooth transition and navbar fixing at top output -> https://drive.google.com/file/d/1wkDVCBDIeCTuPzOIN9PrCjCnFccHwAsc/view?usp=sharing
 
+Figma Design -> https://www.figma.com/design/e0Q4cOMsJu7g94kwFxNX1T/Designs-for-Dev-Assignments_Jan25?node-id=1-1697&t=fGWHlyDxosmqu3FT-0
+
 given code in Figma Output -> https://www.figma.com/proto/e0Q4cOMsJu7g94kwFxNX1T/Designs-for-Dev-Assignments_Jan25?node-id=1-1697&t=flzP7Wy4oLBzZlD8-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
 
 if password requires for Figma then -> "YourHealthBuddy"
