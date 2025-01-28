@@ -1,5 +1,6 @@
 Designed "mediBuddy Assignment" as shown or provided in Figma ["only mobile view achieved"] ...
-But unable to publish code...
+
+web deploy link -> https://comfy-pixie-7187e4.netlify.app
 
 for better visualization see at 430Wx560H dimensions with 100% zoom!
 
