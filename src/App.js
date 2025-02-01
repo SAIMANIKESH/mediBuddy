@@ -21,6 +21,7 @@ const medArray = medArr()[0].page_config;
 const iconsList = medArray[0].props;
 
 const App = () => {
+  document.title = "MediBuddyr̥";
   const [userInput, setUserInput] = useState("");
 
   const onUserInput = (event) => {
